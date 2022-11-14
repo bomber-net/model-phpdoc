@@ -1,0 +1,21 @@
+{
+	"name":"bomber-net/model-phpdoc",
+	"description":"PHPDoc tags for classes based on Laravel Model class",
+	"type":"library",
+	"license":"MIT",
+	"autoload":{
+		"psr-4":{
+			"BomberNet\\ModelPhpdoc\\":"src/"
+		}
+	},
+	"authors":[
+		{
+			"name":"bomber-net",
+			"email":"an-rtk@mail.ru"
+		}
+	],
+	"minimum-stability":"dev",
+	"require":{
+		"illuminate/database": ">=10"
+	}
+}
