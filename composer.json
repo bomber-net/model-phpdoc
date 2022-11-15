@@ -16,6 +16,6 @@
 	],
 	"minimum-stability":"dev",
 	"require":{
-		"illuminate/database": ">=10"
+		"illuminate/database": ">=10.x-dev"
 	}
 }
