@@ -22,6 +22,7 @@ use Illuminate\Database\Query\Expression;
  * @method static Builder select (array|mixed $columns=['*'])
  * @method static Builder setQuery (Builder $query)
  * @method static Builder where (Closure|string|array|Expression $column,mixed $operator=null,mixed $value=null,string $boolean='and')
+ * @method static Builder orWhere (Closure|array|string|Expression $column,mixed $operator=null,mixed $value=null)
  * @method static Builder whereIn (string $column,mixed $values,string $boolean='and',bool $not=false)
  * @method static Builder whereRaw (string $sql,mixed $bindings=[],string $boolean='and')
  * @method static Builder whereNull (string|array $columns,string $boolean='and',Bool $not=false)
