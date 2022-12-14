@@ -30,6 +30,7 @@ use Illuminate\Database\Query\Expression;
  * @method static Builder whereHas (string $relation,Closure|null $callback=null,string $operator='>=',int $count=1)
  * @method static Builder orWhereHas (string $relation,Closure|null $callback=null,string $operator='>=',int $count=1)
  * @method static Builder whereDoesntHave (string $relation,?Closure $callback=null)
+ * @method static Builder orWhereDoesntHave (string $relation,Closure $callback=null)
  * @method static Builder whereDay (string $column,string $operator,DateTimeInterface|string|int|null $value=null,string $boolean='and')
  * @method int increment (string|Expression $column,float|int $amount=1,array $extra=[])
  * @method int decrement (string|Expression $column,float|int $amount=1,array $extra=[])
