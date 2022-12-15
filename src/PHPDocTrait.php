@@ -16,6 +16,7 @@ use Illuminate\Database\Query\Expression;
  * @method static static updateOrCreate (array $attributes=[],array $values=[])
  * @method static Collection|static|null find (mixed $id,array|string $columns=['*'])
  * @method static Collection|static|mixed findOr (mixed $id,Closure|array|string $columns=['*'],Closure|null $callback=null)
+ * @method static Collection|static findOrFail (mixed $id,array|string $columns=['*'])
  * @method static int upsert (array $values,array|string $uniqueBy,array|null $update=null)
  * @method static LazyCollection cursor ()
  * @method static Collection get (array $columns=['*'])
